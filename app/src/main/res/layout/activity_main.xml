@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.MainActivity">
+
+    <EditText
+        android:id="@+id/et_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First text view" />
+
+    <EditText
+        android:id="@+id/et_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second text view" />
+
+    <Button
+        android:id="@+id/btn_save_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save first" />
+
+    <Button
+        android:id="@+id/btn_save_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save second" />
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        tools:text="Text 1" />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        tools:text="Text 2" />
+</LinearLayout>
